@@ -1,0 +1,22 @@
+kk
+[submodule "sftp"]
+	path = sftp
+	url = git@bitbucket.org:gonzalomelokonatech/sftp.git
+[submodule "db-service"]
+	path = db-service
+	url = git@bitbucket.org:gonzalomelokonatech/db-service.git
+[submodule "docsify"]
+	path = docsify
+	url = git@bitbucket.org:gonzalomelokonatech/docsify.git
+[submodule "filestash"]
+	path = filestash
+	url = git@bitbucket.org:gonzalomelokonatech/filestash.git
+[submodule "admin"]
+	path = admin
+	url = git@bitbucket.org:gonzalomelokonatech/admin.git
+[submodule "docker-biserver-ce"]
+	path = docker-biserver-ce
+	url = git@bitbucket.org:gonzalomelokonatech/docker-biserver-ce
+[submodule "docker-pdi-ce"]
+	path = docker-pdi-ce
+	url = git@bitbucket.org:gonzalomelokonatech/docker-pdi-ce
