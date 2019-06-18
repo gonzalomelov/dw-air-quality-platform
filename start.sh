@@ -1,7 +1,7 @@
 cd admin
 git pull origin master
 docker-compose down
-docker-compose up -d
+docker-compose up -d --build
 cd ..
 cd db-service
 git pull origin master
