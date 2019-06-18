@@ -1,4 +1,3 @@
-kk
 [submodule "sftp"]
 	path = sftp
 	url = git@bitbucket.org:gonzalomelokonatech/sftp.git
