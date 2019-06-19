@@ -1,24 +1,4 @@
-cd admin
-git pull origin master
-docker-compose down
-docker-compose up -d --build
-cd ..
-cd db-service
-git pull origin master
-docker-compose down
-docker-compose up -d
-cd ..
-cd docker-biserver-ce
-git pull origin 8.0
-docker-compose down
-docker-compose up -d
-cd ..
-cd docker-pdi-ce
-git pull origin 8.0
-docker-compose down
-docker-compose up -d
-cd ..
-cd docsify
+cd sftp
 git pull origin master
 docker-compose down
 docker-compose up -d
@@ -28,7 +8,27 @@ git pull origin master
 docker-compose down
 docker-compose up -d
 cd ..
-cd sftp
+cd docker-pdi-ce
+git pull origin 8.0
+docker-compose down
+docker-compose up -d
+cd ..
+cd docker-biserver-ce
+git pull origin 8.0
+docker-compose down
+docker-compose up -d
+cd ..
+cd db-service
+git pull origin master
+docker-compose down
+docker-compose up -d
+cd ..
+cd admin
+git pull origin master
+docker-compose down
+docker-compose up -d --build
+cd ..
+cd docsify
 git pull origin master
 docker-compose down
 docker-compose up -d
