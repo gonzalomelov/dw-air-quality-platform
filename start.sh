@@ -1,3 +1,8 @@
+cd docsify
+git pull origin master
+docker-compose down
+docker-compose up -d
+cd ..
 cd sftp
 git pull origin master
 docker-compose down
@@ -27,9 +32,4 @@ cd admin
 git pull origin master
 docker-compose down
 docker-compose up -d --build
-cd ..
-cd docsify
-git pull origin master
-docker-compose down
-docker-compose up -d
 cd ..
