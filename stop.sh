@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd admin
 docker-compose down
 cd ..
