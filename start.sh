@@ -42,7 +42,7 @@ docker-compose down
 
 if [ "$1" = "production" ]
 then
-    docker-compose up -d -f docker-compose-prod.yml --build
+    docker-compose -f docker-compose-prod.yml up -d --build
 else
     docker-compose up -d --build
 fi
