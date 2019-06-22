@@ -31,5 +31,5 @@ cd ..
 cd admin
 git pull origin master
 docker-compose down
-NODE_ENV=development docker-compose up -d --build
+NODE_ENV=production docker-compose up -d --build
 cd ..
