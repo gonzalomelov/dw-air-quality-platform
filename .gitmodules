@@ -19,3 +19,6 @@
 [submodule "docker-pdi-ce"]
 	path = docker-pdi-ce
 	url = git@bitbucket.org:gonzalomelokonatech/docker-pdi-ce
+[submodule "r"]
+	path = r
+	url = git@bitbucket.org:gonzalomelokonatech/r.git
