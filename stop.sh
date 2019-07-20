@@ -33,3 +33,7 @@ cd ..
 cd sftp
 docker-compose down
 cd ..
+
+cd r
+docker-compose down
+cd ..

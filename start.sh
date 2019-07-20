@@ -1,5 +1,11 @@
 #!/bin/bash
 
+cd r
+git pull origin master
+docker-compose down
+docker-compose up -d
+cd ..
+
 cd docsify
 git pull origin master
 docker-compose down
