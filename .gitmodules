@@ -25,3 +25,6 @@
 [submodule "dockprom"]
 	path = dockprom
 	url = git@bitbucket.org:gonzalomelokonatech/dockprom.git
+[submodule "portainer"]
+	path = portainer
+	url = git@bitbucket.org:gonzalomelokonatech/portainer.git
