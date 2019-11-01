@@ -22,3 +22,6 @@
 [submodule "r"]
 	path = r
 	url = git@bitbucket.org:gonzalomelokonatech/r.git
+[submodule "dockprom"]
+	path = dockprom
+	url = git@bitbucket.org:gonzalomelokonatech/dockprom.git
