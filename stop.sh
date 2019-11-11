@@ -38,6 +38,10 @@ cd r
 docker-compose down
 cd ..
 
+cd dockprom
+docker-compose down
+cd ..
+
 cd portainer
 docker-compose down
 cd ..
