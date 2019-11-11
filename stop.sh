@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd traefik
+./docker-rm.sh
+cd ..
+
 cd admin
 docker-compose down
 if [ "$1" = "production" ]

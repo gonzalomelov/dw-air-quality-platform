@@ -64,3 +64,9 @@ else
     docker-compose up -d --build
 fi
 cd ..
+
+cd traefik
+git pull origin master
+./docker-rm.sh
+./docker-run.sh
+cd ..
