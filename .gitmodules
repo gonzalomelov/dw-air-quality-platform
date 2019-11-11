@@ -28,3 +28,6 @@
 [submodule "portainer"]
 	path = portainer
 	url = git@bitbucket.org:gonzalomelokonatech/portainer.git
+[submodule "traefik"]
+	path = traefik
+	url = git@bitbucket.org:gonzalomelokonatech/traefik.git
