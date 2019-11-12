@@ -31,3 +31,6 @@
 [submodule "traefik"]
 	path = traefik
 	url = git@bitbucket.org:gonzalomelokonatech/traefik.git
+[submodule "landing"]
+	path = landing
+	url = git@bitbucket.org:gonzalomelokonatech/landing.git
