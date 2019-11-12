@@ -1,5 +1,11 @@
 #!/bin/bash
 
+cd landing
+git pull origin master
+docker-compose down
+docker-compose up -d
+cd ..
+
 cd portainer
 git pull origin master
 docker-compose down

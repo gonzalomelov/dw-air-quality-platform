@@ -49,3 +49,7 @@ cd ..
 cd portainer
 docker-compose down
 cd ..
+
+cd landing
+docker-compose down
+cd ..
