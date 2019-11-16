@@ -22,9 +22,9 @@ cd docker-biserver-ce
 docker-compose down
 cd ..
 
-cd docker-pdi-ce
-docker-compose down
-cd ..
+# cd docker-pdi-ce
+# docker-compose down
+# cd ..
 
 cd docsify
 docker-compose down

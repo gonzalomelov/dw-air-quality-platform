@@ -48,11 +48,11 @@ docker-compose down
 docker-compose up -d
 cd ..
 
-cd docker-pdi-ce
-git pull origin 8.0
-docker-compose down
-docker-compose up -d
-cd ..
+# cd docker-pdi-ce
+# git pull origin 8.0
+# docker-compose down
+# docker-compose up -d
+# cd ..
 
 cd docker-biserver-ce
 git pull origin 8.0
