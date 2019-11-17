@@ -62,12 +62,12 @@ cd ..
 
 cd admin
 git pull origin master
-docker-compose down
 if [ "$1" = "production" ]
 then
     docker-compose -f docker-compose-prod.yml down
     docker-compose -f docker-compose-prod.yml up -d --build
 else
+    docker-compose down
     docker-compose up -d --build
 fi
 cd ..
