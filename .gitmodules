@@ -1,36 +1,36 @@
 [submodule "sftp"]
 	path = sftp
-	url = git@bitbucket.org:gonzalomelokonatech/sftp.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-sftp.git
 [submodule "db-service"]
 	path = db-service
-	url = git@bitbucket.org:gonzalomelokonatech/db-service.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-db-service.git
 [submodule "docsify"]
 	path = docsify
-	url = git@bitbucket.org:gonzalomelokonatech/docsify.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-docsify.git
 [submodule "filestash"]
 	path = filestash
-	url = git@bitbucket.org:gonzalomelokonatech/filestash.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-filestash.git
 [submodule "admin"]
 	path = admin
-	url = git@bitbucket.org:gonzalomelokonatech/admin.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-admin.git
 [submodule "docker-biserver-ce"]
 	path = docker-biserver-ce
-	url = git@bitbucket.org:gonzalomelokonatech/docker-biserver-ce
+	url = git@github.com:gonzalomelov/dw-calidad-aire-docker-biserver.git
 [submodule "docker-pdi-ce"]
 	path = docker-pdi-ce
-	url = git@bitbucket.org:gonzalomelokonatech/docker-pdi-ce
+	url = git@github.com:gonzalomelov/dw-calidad-aire-docker-pdi.git
 [submodule "r"]
 	path = r
-	url = git@bitbucket.org:gonzalomelokonatech/r.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-r.git
 [submodule "dockprom"]
 	path = dockprom
-	url = git@bitbucket.org:gonzalomelokonatech/dockprom.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-dockprom.git
 [submodule "portainer"]
 	path = portainer
-	url = git@bitbucket.org:gonzalomelokonatech/portainer.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-portainer.git
 [submodule "traefik"]
 	path = traefik
-	url = git@bitbucket.org:gonzalomelokonatech/traefik.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-traefik.git
 [submodule "landing"]
 	path = landing
-	url = git@bitbucket.org:gonzalomelokonatech/landing.git
+	url = git@github.com:gonzalomelov/dw-calidad-aire-landing.git
